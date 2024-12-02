@@ -1,0 +1,18 @@
+.feedback {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.stat {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    color: #333;
+}
+
+.total {
+    font-weight: bold;
+}
+
+.positive {
+    color: green;
+}

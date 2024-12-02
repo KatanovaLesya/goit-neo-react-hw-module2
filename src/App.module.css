@@ -1,0 +1,33 @@
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 90%;
+    /* Контейнер буде займати 90% ширини екрана */
+    margin: 0 auto;
+    /* Центрування контейнера */
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: max-width 0.3s ease;
+    /* Гладка зміна ширини */
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 70%;
+        /* На більших екранах контейнер буде ширшим */
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 50%;
+        /* На ще більших екранах контейнер буде займати 50% */
+    }
+}
+.title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
