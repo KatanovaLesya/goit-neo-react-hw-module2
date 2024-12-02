@@ -53,7 +53,11 @@ const App = () => {
     <div className={styles.container}>
       <h1 className={styles.title}>Sip Happens Café</h1>
       <Description />
-      <Options onFeedback={handleFeedback} onReset={resetFeedback} />
+      <Options
+        onFeedback={handleFeedback}
+        onReset={resetFeedback}
+        totalFeedback={totalFeedback}
+      />
       {totalFeedback > 0 ? (
         <Feedback
           feedback={feedback}
